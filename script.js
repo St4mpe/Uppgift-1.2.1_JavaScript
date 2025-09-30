@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function(){
         {
             txt_box.classList.remove("text_for_dark");
             txt_box.classList.add("text_for_light");
-            txt_box.innerHTML = "Switch to dark-mode"
             bg_theme.classList.add("clr_for_bg_light");
             bg_theme.classList.remove("clr_for_bg_dark");
         }
@@ -15,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function(){
         {
             txt_box.classList.add("text_for_dark");
             txt_box.classList.remove("text_for_light");
-            txt_box.innerHTML = "Switch to light-mode"
             bg_theme.classList.remove("clr_for_bg_light");
             bg_theme.classList.add("clr_for_bg_dark");
         }
