@@ -24,7 +24,7 @@ body{
 .text_for_light{
     display:grid;
     color: #000;
-    background: #ddd;
+    background: #eee;
 }
 .clr_for_bg_light{
     background: #fff;
