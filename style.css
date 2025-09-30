@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    display:grid;
+    place-content:center;
+    height:100vh;
+}
+#txt_box{
+    place-content:center;
+    width:400px;
+    height:250px; 
+}
+.text_for_dark{
+    display:grid;
+    color: #fff;
+    background: #252525;
+}
+.clr_for_bg_dark{
+    background: #000;
+}
+.text_for_light{
+    display:grid;
+    color: #000;
+    background: #ddd;
+}
+.clr_for_bg_light{
+    background: #fff;
+}
